@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+</head>
+<body>
+<pre>
+Descripution of each files
+
+##### Library Summary (General) #####
+
+Paragraph 1 (left)	Sum of read number from all samples,
+			and statistical data of each sample's read number.
+			(median, quantile, max, minimum)
+
+Paragraph 1 (right)	Fig. "Histogram of Read number per sample"
+			Frequency distribution of each sample's read number.
+			Read number is log10-transformed.
+
+
+
+##### Library Summary (RAD-Seq) #####
+
+Paragraph 1		Information about protocol version of RAD-Seq, used restriction enzyme, etc.
+
+Paragraph 2		Description of number of samples used in Stacks, Stacks parameters, etc.
+
+Paragraph 3		Table shows number of contigs in each ratio of matching samples.
+			(>50%, >70%, >90%, =100%)
+				all: all contigs (no filtering)
+				1 SNP 2 allele: contigs filtered with 1 SNP 2 allele
+				with SNPs: contigs filtered with SNP>=1
+
+Paragraph 4 (left)	Fig. "Contig number"
+			Plot based on table data of Paragraph 3.
+			But values of y-axis were calculated at every 10% of matching samples (x-axis).
+
+Paragraph 4 (right)	Fig. "Histogram of Read number used in stacks"
+			Frequency distribution of each sample's read number used in Stacks.
+			Read number is log10-transformed.
+
+Paragraph 5 (left)	Fig. "Median depth of samples"
+			Frequency distribution of median depth of each sample.
+
+Paragraph 5 (right)	Fig. "Max depth of samples"
+			Frequency distribution of max depth of each sample.
+
+Paragraph 6		Number of contigs in each depth value (>0, >1, >3, >10, >30, >100),
+			and fraction of used read.
+
+Paragraph 7 (left)	Fig. "Average depth of locus"
+			Frequency distribution of average depth of each contig.
+
+Paragraph 7 (right)	Fig. "Average depth of locus (frequency<3000)"
+			Enlarging the part of frequency<3000 in Fig. "Average depth of locus"
+
+Paragraph 8		Fig. "major allele depth vs total depth"
+			Hexagon plot of relationship between depth fraction of major allele (x-axis)
+			and total depth (y-axis) in each contig of all samples.
+			depth>100 is converted as depth=100.
+
+
+##### Sample Summary #####
+
+Sample Summary (General)
+
+Paragraph 1		Total read number and mean quality value of the sample.
+
+Sample Summary (RAD-Seq)
+
+Paragraph 1 		Total read number of the sample used in Stacks, median and max depth.
+(upper left)
+
+Paragraph 1 		Number of contigs in each depth value.
+(lower left)			all: all contigs (no filtering)
+				with SNPs: contigs filtered with SNP >=1
+
+Paragraph 1 (right)	Fig. "Histogram of depth (depth >=3)
+			Frequency distribution of depth in the contigs with depth>=3.
+			depth>100 is converted as depth=100.
+
+Paragraph 2 (left)	Fig. "Histogram of depth (frequency < 500)"
+			Enlarging the part of frequency <500 in Fig. "Histogram of depth (depth >=3)"
+
+Paragraph 2 (right)	Fig. "major allele depth vs total depth"
+			Hexagon plot of relationship between depth fraction of major allele (x-axis)
+			and depth (y-axis) in each contig of the sample.
+			depth>100 is converted as depth=100.
+
+
+</pre>
+</body>
+</html>
