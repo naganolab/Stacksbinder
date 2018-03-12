@@ -16,12 +16,12 @@ R >
 perl
 -parseStacksLog.pl
 R
--RADseqReportSystem.R
--init.sh
-figexp_e.html
-denovo_map.log or ref_map.log
-outputfile.tsv
-RADseqReport.sh
+-RADseqReportSystem.R  
+-init.sh  
+figexp_e.html  
+denovo_map.log or ref_map.log  
+outputfile.tsv  
+RADseqReport.sh  
 
 # Usage  
 $0 -i [Stacks log] -s [Stacks output] -t [title] -o [OUTPUT DIR] (-x [enzyme1] -y [enzyme2] -p [polymerase])  
