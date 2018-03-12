@@ -14,8 +14,8 @@ R >
 2. Place the packege as follwing;  
 
 perl
--parseStacksLog.pl
-R
+-parseStacksLog.pl  
+R  
 -RADseqReportSystem.R  
 -init.sh  
 figexp_e.html  
