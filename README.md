@@ -2,14 +2,14 @@
 Stacks binder offline version  
 (c)2018 The Authors, see LICENSE for details.   
 
-#Author  
+# Author  
 Masaki Yasugi, Ayumi Tezuka and Atsushi J. Nagano.  
 
-#Dependecies  
+# Dependecies  
 Perl >  
 R >  
 
-#Installation  
+# Installation  
 1. Download the package.  
 2. Place the packege as follwing;  
 
@@ -23,7 +23,7 @@ denovo_map.log or ref_map.log
 outputfile.tsv
 RADseqReport.sh
 
-#Usage  
+# Usage  
 $0 -i [Stacks log] -s [Stacks output] -t [title] -o [OUTPUT DIR] (-x [enzyme1] -y [enzyme2] -p [polymerase])  
   
 Description:  
@@ -37,6 +37,6 @@ Options:
     -y [enzyme2]      enzyme2  
     -p [polymerase]   polymerase  
 
-#Reference  
+# Reference  
 
-#Citation  
+# Citation  
