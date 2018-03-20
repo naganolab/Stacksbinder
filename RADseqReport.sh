@@ -8,8 +8,6 @@
 #
 
 #setting file
-sh ./init.sh
-
 DIR_SCR="$(cd $(dirname $0); pwd)"
 
 SCR_PARSE="${DIR_SCR}/perl/parseStacksLog.pl"
