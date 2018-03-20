@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-#  Revision: 1.0.0 
-#  Date: 2017/05/11
-#  Copyrigth (c) 2017 by DYNACOM Co.,Ltd.
+#  Revision: 1.1.0 
+#  Date: 2018/03/20
+#  Copyrigth (c) 2018
 #
 #  RAD-seq Report System
 #
@@ -13,7 +13,7 @@ sh ./init.sh
 DIR_SCR="$(cd $(dirname $0); pwd)"
 
 SCR_PARSE="${DIR_SCR}/perl/parseStacksLog.pl"
-SCR_R="${DIR_SCR}/R/RADseqReportSys.R"
+SCR_R="${DIR_SCR}/R/RADseqReportSystem.R"
 
 HTML_DESC="${DIR_SCR}/figexp_e.html"
 
@@ -45,7 +45,7 @@ _EOT_
   exit;
 }
 
-#入力文字�E制陁EセキュリチE��のため)
+#蜈･蜉帶枚蟄励・蛻ｶ髯・繧ｻ繧ｭ繝･繝ｪ繝・ぅ縺ｮ縺溘ａ)
 escape_str () {
    ESCAPESTR=`echo $1 | sed  -e "s/[^a-zA-Z0-9_/.-]//g"`
    echo ${ESCAPESTR}
