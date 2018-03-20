@@ -6,22 +6,35 @@ Stacks binder offline version
 Masaki Yasugi, Ayumi Tezuka and Atsushi J. Nagano.  
 
 # Dependecies  
-Perl >  
-R >  
+Perl > v5.10.1 
+R >  v3.3.3 
+
+Perl modules
+ - Getopt**Long ver 2.38 
+ - File::ReadBackwards 1.05 
+
+R libraries
+ - hwriter ver 1.3.2
+ - ggplot ver 1.0.1
+ - grid ver 3.3.3
+ - hexbin ver 1.27.0
 
 # Installation  
-1. Download the package.  
+1. Download the package and required R libraries and Perl modules.  
 2. Place the packege as follwing;  
 
-perl
--parseStacksLog.pl  
+perl 
+ - parseStacksLog.pl  
+
 R  
--RADseqReportSystem.R  
--init.sh  
+ - RADseqReportSystem.R  
+ - init.sh  
 figexp_e.html  
 denovo_map.log or ref_map.log  
 outputfile.tsv  
 RADseqReport.sh  
+
+3. Run the "RADseqReport.sh"  
 
 # Usage  
 $0 -i [Stacks log] -s [Stacks output] -t [title] -o [OUTPUT DIR] (-x [enzyme1] -y [enzyme2] -p [polymerase])  
