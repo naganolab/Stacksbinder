@@ -8,8 +8,9 @@ Masaki Yasugi, Ayumi Tezuka and Atsushi J. Nagano.
 # Dependecies  
 Perl > v5.10.1  
 R > v3.3.3  
+  
 Perl modules
- - Getopt**Long ver 2.38 
+ - Getopt::Long ver 2.38 
  - File::ReadBackwards ver 1.05 
 
 R libraries
