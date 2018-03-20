@@ -24,7 +24,7 @@ R libraries
 2. Place the packege as follwing;  
 ``` 
 perl/ 
- ├parseStacksLog.pl 
+ ├ parseStacksLog.pl 
 R/  
  ├ RADseqReportSystem.R  
  ├ init.sh  
