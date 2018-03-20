@@ -43,7 +43,7 @@ _EOT_
   exit;
 }
 
-#蜈･蜉帶枚蟄励・蛻ｶ髯・繧ｻ繧ｭ繝･繝ｪ繝・ぅ縺ｮ縺溘ａ)
+#	character limit
 escape_str () {
    ESCAPESTR=`echo $1 | sed  -e "s/[^a-zA-Z0-9_/.-]//g"`
    echo ${ESCAPESTR}
