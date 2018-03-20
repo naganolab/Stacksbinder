@@ -20,23 +20,7 @@ countmatch <- function(x){
 #  argument
 #
 args <- commandArgs(trailingOnly = TRUE)
-inR <- as.character(args[1])        #log file
-# version <- "ref_map.pl version 1.37 started at 2017-02-09 11:30:33"
-# dbname <- "TezukaRAD1_170209_radtags"
-# batch_id <- 1
-# cmd_stacks <- "ref_map.pl -T 12 -B TezukaRAD1_170209_radtags -b 1 -D Reference aligned population RAD-Tag samples -o ./stacks"
-# sample_num <- 56
-# totalread_num <- 191906430
-# sample2readnum
-#in_stacksout <-  as.character(args[2])
-#in_title <- as.character(args[3])  #title
-#in_enzyme1 <- as.character(args[4]) #reaction enzyme1
-#in_enzyme2 <- as.character(args[5]) #reaction enzyme2
-#in_polymerase  <- as.character(args[6]) #polymerase
-#out_dir <- as.character(args[7])
-#html_desc <- as.character(args[8])
-#in_email <- as.character(args[8])  #email
-#finish_file <- "finish"
+inR <- as.character(args[1])
 
 #DEBUG
 if(F){
@@ -817,7 +801,7 @@ closePage(p, splash=FALSE)
 #setwd("../")
 
 #XX#dname <- basename(wd0)
-#XX#wd0を利用しないようにする
+#XX#wd0#avoidusingthem
 sentense <- paste("Library Report of ", in_title, sep="")
 itop <- hwrite(sentense, style='font-weight: bold; font-size:105%', br=TRUE)
 LSGlink <- paste("./html","LibrarySummaryGeneral.html", sep="/")
@@ -859,5 +843,5 @@ hwrite("", p, br=TRUE)
 hwrite(sampletable, p, row.bgcolor='#ffffaa', col.link=list(Sample_name=samplelink), table.style=list('text-align:center'), border=0, cellspacing=0, cellpadding=5, table.frame='void', table.rules='cols', table.hspace=5, row.names=FALSE)
 closePage(p, splash=FALSE)
 
-#処理完了後にfinishへステータス変更
+#Changing status after all tasks finished
 file.rename(inR, finish_file)
