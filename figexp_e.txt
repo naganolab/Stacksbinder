@@ -1,0 +1,52 @@
+Descripution of each files
+
+##### Library Summary (General) #####
+
+Paragraph (left)	Sum and descriptive statistics of the read number per sample.
+Paragraph (right)	Histogram of read numbers. Read numbers were log10-transformed.
+
+
+##### Library Summary (RAD-Seq) #####
+
+Paragraph 1		General information about the parameters used in Stacks.
+
+Paragraph 2		The number of loci in each percentage of matching samples.
+			all: all loci (no filtering); 1 SNP 2 allele: loci with one SNP and two alleles; with one and multiple SNP(s): locus with SNPs >= 1.
+
+Paragraph 3 (left)	Fig. "number of loci in each percentage of matching samples"
+			Same as ÅeParagraph 2Åf, but with locus frequencies calculated at every 10% of matching samples. 
+
+Paragraph 3 (right)	Fig. "Histogram of Read number used in stacks"
+			Histogram of the read number of each sample used in Stacks. Read numbers were log10-transformed.
+
+Paragraph 4 (left)	Fig. "Median depth of samples"
+			Histogram of median depths per sample. 
+
+Paragraph 4 (right)	Fig. "Max depth of samples"
+			Histogram of max depth per sample..
+
+Paragraph 5		Number of loci and fraction of used reads at each depth.
+
+Paragraph 6 (left)	Fig. "Average depth of locus"
+			Histogram of the average depth per locus.
+
+Paragraph 6 (right)	Fig. "Average depth of locus (the number of locus < 500)"
+			Same as ÅeParagraph 6 (left)Åf, but truncated at 500 loci.
+
+Paragraph 7		Fig. "major allele depth vs total depth"
+			 Hexagon plot of the relationship between the depth of major allele and total depth for each locus in all samples.
+
+
+##### Sample Summary #####
+
+Sample Summary (General)
+
+Paragraph 1		Total read number of the sample.
+
+
+Sample Summary (RAD-Seq)
+Paragraph 1 (left) 	Total read number of the sample and mean quality value of the sample used in Stacks.
+Paragraph 2 (left)	Number of loci at each depth level. all: all loci (no filtering); with one and multiple SNP: loci with SNPs>=1. 
+Paragraph 2 (right)	Histogram of depth for locus with depth >=3. Loci with depth>=100 were combined. 
+Paragraph 3 (left)	Histogram of depth for locus with depth>=3 truncated at a frequency of 500. 
+Paragraph 3 (right)	Hexagon plot of the relationship between the depth of major allele and total depth in each locus.
