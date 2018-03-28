@@ -1,6 +1,8 @@
 # Stacksbinder  
-Stacks binder offline version  
+Stacksbinder offline version  
 (c)2018 The Authors, see LICENSE for details.   
+Stacksbinder online version  
+https://ps.agr.ryukoku.ac.jp/stacksbinder/  
 
 # Author  
 Masaki Yasugi, Ayumi Tezuka and Atsushi J. Nagano.  
