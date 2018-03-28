@@ -20,8 +20,8 @@ R libraries
  - hexbin ver 1.27.0
 
 # Installation  
-1. Download the package and required R libraries and Perl modules.  
-2. Place the packege as follwing;  
+1. Download the packages and required R libraries and Perl modules.  
+2. Place the packeges as follwings;  
 ``` 
 perl/ 
  ├ parseStacksLog.pl 
