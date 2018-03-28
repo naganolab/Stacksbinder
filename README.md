@@ -27,11 +27,10 @@ perl/
  ├ parseStacksLog.pl 
 R/  
  ├ RADseqReportSystem.R  
- ├ init.sh  
-figexp_e.html  
+figexp_e.txt  
+RADseqReport.sh  
 denovo_map.log or ref_map.log  
 outputfile.tsv  
-RADseqReport.sh  
 ``` 
 
 3. Run the ```  "RADseqReport.sh" ```  
