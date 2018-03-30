@@ -8,6 +8,7 @@ https://ps.agr.ryukoku.ac.jp/stacksbinder/
 Masaki Yasugi, Ayumi Tezuka and Atsushi J. Nagano.  
 
 # Dependecies  
+Stacks > version 1.46  
 Perl > v5.10.1  
 R > v3.3.3  
   
@@ -48,11 +49,12 @@ Options:
     -s [Stacks out]   outputfile.tsv [tsv]  
     -t [title]        title  
     -o [OUTPUT DIR]   output directory  
-    -x [enzyme1]      enzyme1  
-    -y [enzyme2]      enzyme2  
-    -p [polymerase]   polymerase  
+    -x [enzyme1]      enzyme1(optional)  
+    -y [enzyme2]      enzyme2(optional)  
+    -p [polymerase]   polymerase(optional)  
 ``` 
 # Reference  
 J. Catchen, P. Hohenlohe, S. Bassham, A. Amores, and W. Cresko. Stacks: an analysis tool set for population genomics. Molecular Ecology. 2013.
+http://catchenlab.life.illinois.edu/stacks/
 # Citation  
 M. Yasugi, A. Tezuka and A. J. Nagano (in submitted) Stacksbinder: online tools for visualizing and summarizing Stacks output to aid appropriate filtering of SNPs identified via RAD-Seq
